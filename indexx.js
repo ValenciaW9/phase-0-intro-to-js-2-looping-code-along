@@ -7,10 +7,10 @@ function writeCards(names, eventName) {
     }
   
     return messages;
-  }
+    
+}const gifts = ["Apple", "Microsoft", "Google"];
+console.log(writeCards(gifts, "birthday"));
 
-  const gifts = ["Apple", "Microsoft", "Google"];
-  console.log(writeCards(gifts, "birthday"));
   //, build a function named writeCards() that accepts two arguments: an array of string names, and an event name. Create a for loop with a counter that starts at 0 and increments at the end of each loop. The for loop should stop once it has iterated over the length of the array.
 //As with our previous wrapGifts() function, you will create a custom message for each name inside the loop. Unlike that example, however, instead of simply logging the messages to the console, you will collect them in a new array and return this array at the end of the function. (Refer back to the Array Methods lesson if you need a refresher on how we can add an element to an array.) The overall process should be:
 //create a new, empty array to hold the messages;
