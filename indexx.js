@@ -7,8 +7,8 @@ function writeCards(names, eventName) {
     }
   
     return messages;
-    
-}const gifts = ["Apple", "Microsoft", "Google"];
+
+}
 console.log(writeCards(gifts, "birthday"));
 
   //, build a function named writeCards() that accepts two arguments: an array of string names, and an event name. Create a for loop with a counter that starts at 0 and increments at the end of each loop. The for loop should stop once it has iterated over the length of the array.
