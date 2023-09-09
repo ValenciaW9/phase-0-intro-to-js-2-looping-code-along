@@ -1,14 +1,15 @@
- function writeCards(names, event) {
+function writeCards(names, event) {
     let messages = [];
     for (let i = 0; i < names.length; i++) {
       messages.push(`Wrapped ${names[i]} and added a mouse!`);
     }
+    const gifts = ["Apple", "Microsoft", "Google"];
+    console.log(writeCards(gifts, "birthday"));
     return messages;
-    
+  }
+  
   const gifts = ["Apple", "Microsoft", "Google"];
   console.log(writeCards(gifts, "birthday"));
-
-
 
 
 
