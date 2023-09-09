@@ -22,7 +22,6 @@ wrapGift(gifts[2]);
 for ([initialization]; [condition]; [iteration]) {
     [loop body]
   }
-
 //Initialization -Typically used to initialize a counter variable.
 //Condition-An expression evaluated before each pass through the loop. If this expression evaluates to true, the statements in the loop body are executed. If the expression evaluates to false, the loop exits.
 //Iteration - An expression executed at the end of each iteration. Typically, this will involve incrementing or decrementing a counter, bringing the loop ever closer to completion.
