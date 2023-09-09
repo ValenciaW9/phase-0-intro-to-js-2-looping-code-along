@@ -8,7 +8,7 @@ function writeCards(names, eventName) {
   
     return messages;
 
-}
+}c
 console.log(writeCards(gifts, "birthday"));
 
   //, build a function named writeCards() that accepts two arguments: an array of string names, and an event name. Create a for loop with a counter that starts at 0 and increments at the end of each loop. The for loop should stop once it has iterated over the length of the array.
@@ -59,6 +59,5 @@ primes[150]; // undefined
 //Read the errors; vocalize what they're asking you to do.
 //Write code; repeat steps 2 and 3 often until a test passes.
 //Repeat as needed for the remaining tests.
-
 
 
