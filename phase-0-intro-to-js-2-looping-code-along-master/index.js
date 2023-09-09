@@ -6,7 +6,7 @@ const gifts = ["teddy bear", "drone", "drone","dool"];
 
 console.log(`Wrapped ${gifts[i]} and added a bow!`);
 
-}
+
 
 
 //We could then call wrapGift() on each gift individually:
